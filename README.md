@@ -75,12 +75,7 @@ file_name="usedcars.csv"
 df = pd.read_csv(file_name, header=0)
 ```
 
-> Note: This version of the lab is working on JupyterLite, which requires the dataset to be downloaded to the interface.While working on the downloaded version of this notebook on their local machines(Jupyter Anaconda), the learners can simply **skip the steps above,** and simply use the URL directly in the `pandas.read_csv()` function. You can uncomment and run the statements in the cell below.
 
-
-
-```python
-#filepath='https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-SkillsNetwork/labs/Data%20files/automobileEDA.csv'
 #df = pd.read_csv(filepath, header=None)
 ```
 
