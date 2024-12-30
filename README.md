@@ -33,7 +33,7 @@ After completing this lab you will be able to:
 <h3>What are the main characteristics that have the most impact on the car price?</h3>
 
 
-## Import Data from Module 2
+## Import Data from Module 
 
 
 <h4>Setup</h4>
@@ -44,32 +44,8 @@ Import libraries:
 
 
 ```python
-#install specific version of libraries used in lab
-#! mamba install pandas==1.3.3
-#! mamba install numpy=1.21.2
-#! mamba install scipy=1.7.1-y
-#!  mamba install seaborn=0.9.0-y
-```
-
-
-```python
 !pip install seaborn
 ```
-
-    Requirement already satisfied: seaborn in c:\users\cahyo sukmono\anaconda3\lib\site-packages (0.11.0)
-    Requirement already satisfied: scipy>=1.0 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from seaborn) (1.5.2)
-    Requirement already satisfied: pandas>=0.23 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from seaborn) (1.1.3)
-    Requirement already satisfied: matplotlib>=2.2 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from seaborn) (3.3.2)
-    Requirement already satisfied: numpy>=1.15 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from seaborn) (1.19.2)
-    Requirement already satisfied: pytz>=2017.2 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from pandas>=0.23->seaborn) (2020.1)
-    Requirement already satisfied: python-dateutil>=2.7.3 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from pandas>=0.23->seaborn) (2.8.1)
-    Requirement already satisfied: pillow>=6.2.0 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from matplotlib>=2.2->seaborn) (8.0.1)
-    Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from matplotlib>=2.2->seaborn) (1.3.0)
-    Requirement already satisfied: certifi>=2020.06.20 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from matplotlib>=2.2->seaborn) (2020.6.20)
-    Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from matplotlib>=2.2->seaborn) (2.4.7)
-    Requirement already satisfied: cycler>=0.10 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from matplotlib>=2.2->seaborn) (0.10.0)
-    Requirement already satisfied: six>=1.5 in c:\users\cahyo sukmono\anaconda3\lib\site-packages (from python-dateutil>=2.7.3->pandas>=0.23->seaborn) (1.15.0)
-    
 
 
 ```python
