@@ -76,9 +76,6 @@ df = pd.read_csv(file_name, header=0)
 ```
 
 
-#df = pd.read_csv(filepath, header=None)
-```
-
 View the first 5 values of the updated dataframe using `dataframe.head()`
 
 
@@ -90,19 +87,7 @@ df.head()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
