@@ -2083,17 +2083,6 @@ grouped_test_bodystyle
 
 
 
-<details><summary>Click here for the solution</summary>
-
-```python
-# grouping results
-df_gptest2 = df[['body-style','price']]
-grouped_test_bodystyle = df_gptest2.groupby(['body-style'],as_index= False).mean()
-grouped_test_bodystyle
-
-```
-
-</details>
 
 
 If you did not import "pyplot", let's do it again. 
